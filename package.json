@@ -1,0 +1,16 @@
+{
+  "name": "hello-world-app",
+  "version": "1.0.0",
+  "description": "Simple Hello World app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
