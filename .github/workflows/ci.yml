@@ -9,11 +9,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-      - run: npm ci
-      - run: npm start &
-      - uses: cypress-io/github-action@v6
+      - run: npm install
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v6
         with:
           browser: chrome
+          start: npm start
+          wait-on: 'http://localhost:3000'
+          wait-on-timeout: 60
   deploy:
     needs: test
     runs-on: ubuntu-latest
