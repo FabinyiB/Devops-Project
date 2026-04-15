@@ -116,6 +116,17 @@ After publishing the image:
 
 This completes the automated deployment lifecycle.
 
+### 5. Docker Image Versioning Strategy
+
+Each pipeline execution publishes a versioned Docker image to Docker Hub.
+
+Images are tagged with:
+
+- latest → always represents the newest successful build
+- ${{ github.run_number }} → uniquely identifies each pipeline execution
+
+This approach enables deployment traceability and supports rollback to previous working versions if needed.
+
 ---
 
 ## 🚀 How to Run Locally

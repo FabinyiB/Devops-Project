@@ -31,7 +31,9 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/hello-world-app:latest
+          tags: |
+            ${{ secrets.DOCKER_USERNAME }}/hello-world-app:latest
+            ${{ secrets.DOCKER_USERNAME }}/hello-world-app:${{ github.run_number }}
           context: .
       - name: Trigger Render Deploy
         run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
