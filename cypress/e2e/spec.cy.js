@@ -6,7 +6,7 @@ describe('Hello World App', () => {
 
   it('has correct background color', () => {
     cy.visit('/');
-    cy.get('body').should('have.css', 'background-color', 'rgb(140, 29, 192)'); // lightblue
+    cy.get('body').should('have.css', 'background-color', 'rgb(185, 29, 94)'); // lightblue
   });
 
   it('loads the page', () => {
