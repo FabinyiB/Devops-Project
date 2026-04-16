@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/FabinyiB/Devops-Project/actions/workflows/ci.yml/badge.svg)](https://github.com/FabinyiB/Devops-Project/actions)
 
-[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-fabinyib%2Fhello--world--app-blue)](https://hub.docker.com/r/fabinyib/hello-world-app)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-fabinyib%2Fhello--world--app-blue)](https://hub.docker.com/repository/docker/fabinyib/hello-world-app/general)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-green)](https://hello-world-app-amos.onrender.com)
 
