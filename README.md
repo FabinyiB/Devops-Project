@@ -16,6 +16,7 @@ Code push → GitHub Actions → Cypress tests → Docker image build → Docker
 ```
 
 The application is automatically redeployed to a live cloud environment after successful tests.
+Tests run on every push and pull request. Deployment is triggered automatically only after successful validation on the main branch.
 
 ---
 
