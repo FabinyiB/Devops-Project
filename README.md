@@ -1,8 +1,10 @@
 # 🚀 DevOps CI/CD Demo Project
 
-![CI](https://github.com/FabinyiB/Devops-Project/actions/workflows/ci.yml/badge.svg)
-![Docker Hub](https://img.shields.io/badge/Docker%20Hub-fabinyib%2Fhello--world--app-blue)
-![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-green?link=https://hello-world-app-amos.onrender.com)
+[![CI](https://github.com/FabinyiB/Devops-Project/actions/workflows/ci.yml/badge.svg)](https://github.com/FabinyiB/Devops-Project/actions)
+
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-fabinyib%2Fhello--world--app-blue)](https://hub.docker.com/r/fabinyib/hello-world-app)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-green)](https://hello-world-app-amos.onrender.com)
 
 ## 📌 Overview
 This project demonstrates a **complete CI/CD pipeline** integrating automated testing, containerization, artifact publishing, and cloud deployment.
